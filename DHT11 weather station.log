@@ -1,0 +1,82 @@
+STEP translation to Solid Edge
+Date: Thursday,December 11,2025 08:36PM
+Source File: C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\DHT11 weather station.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+Operating System: Windows 10 Enterprise Edition Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 5.87 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\DHT11 weather station.asm
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\LQFP-48_7x7mm_P0.5mm.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\PinSocket_1x04_P2.54mm_Horizontal.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\SOT-223.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\SOT-223.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\PinSocket_1x04_P2.54mm_Horizontal.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\R_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\DHT11.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\CP_Radial_D8.0mm_P3.50mm.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\R_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\R_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\R_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\BarrelJack_GCT_DCJ200-10-A_Horizontal.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\MC-306_32.7680K-G0_ROHS.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\D_SMA.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\Crystal_SMD_HC49-SD.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\SW_E-Switch_EG1224_SPDT_Angled.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\SW_Tactile_SPST_Angled_PTS645Vx83-2LFS.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Reusing File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\C_1206_3216Metric.par
+|--+Created SE Part File C:\Users\Lenovo\OneDrive\Desktop\DHT11 weather station\DHT11 weather station_PCB.par
++Total Parts: 70
++Assemblies: 0
++Solid Bodies: 68
++Sheet Bodies: 2
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 07

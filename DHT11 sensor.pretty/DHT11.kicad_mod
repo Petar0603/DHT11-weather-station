@@ -1,0 +1,210 @@
+(footprint "DHT11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x03 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -2.05 -11.72 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1dd9f981-eb67-4356-a862-3661e7ef7e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DHT11"
+		(at -8.35 -6.65 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ba5834-804c-4beb-b4dd-293c0dfea729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.05 -8.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "175ec0c9-1606-44ec-9a72-1a5a86996c48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.05 -8.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c1e3389-b52a-4217-ae15-e2612a8722d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.884441 -14.9)
+		(end -3.884441 2.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6c5dbc0-5a31-4635-b774-a5d8d65eebb3")
+	)
+	(fp_line
+		(start -3.884441 -14.9)
+		(end 6.545537 -14.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e187bcc5-46a0-46a5-8c3d-0182929c33ac")
+	)
+	(fp_line
+		(start -3.884441 2.95)
+		(end 6.554462 2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "449fd440-139c-4d1f-92de-474fc05b5ac8")
+	)
+	(fp_line
+		(start 6.545537 -14.9)
+		(end 6.554462 2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ea7d2b-2f1a-42ce-9620-c1ecd7ce8602")
+	)
+	(fp_rect
+		(start -3.125 -10)
+		(end -1 -2.775)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a63f9bd-8735-439f-a1d8-63592cd5c8a8")
+	)
+	(fp_line
+		(start -4.45 3.45)
+		(end -4.45 -15.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e11c915b-ef63-4f6c-a0d0-336ac44fa1c3")
+	)
+	(fp_line
+		(start 7 -15.5)
+		(end -4.45 -15.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9162612-7c02-4be9-b755-83f079b4d1cc")
+	)
+	(fp_line
+		(start 7 3.45)
+		(end -4.45 3.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80fed7ac-3b60-4164-b915-587d7fde4c2c")
+	)
+	(fp_line
+		(start 7 3.45)
+		(end 7 -15.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e44939a-e9f0-4665-83b7-eaa93b7963b6")
+	)
+	(fp_text user "DHT11"
+		(at 1.075 -8.55 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eab56e57-39a0-4d28-9421-9d46deaa8802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DHT11"
+		(at 4.75 -14.55 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cf44a47-ea0c-4d07-b4bb-a7481d177336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.05 -8.95)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(uuid "70e9f183-1691-4a0e-9eb0-e7c34ca9341e")
+	)
+	(pad "2" thru_hole circle
+		(at -2.05 -6.41)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e1ccb57-a4d2-42f7-9177-f7c62e15f000")
+	)
+	(pad "3" thru_hole circle
+		(at -2.05 -3.87)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfb47c25-0993-4412-9319-0480f088f077")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Lenovo/OneDrive/Desktop/DHT11/DHT11.step"
+		(offset
+			(xyz 13.45 16.24 22)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -90)
+		)
+	)
+)
