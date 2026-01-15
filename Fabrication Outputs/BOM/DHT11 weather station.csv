@@ -1,22 +1,23 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"C1,C3,C4,C5,C6,C7,C8,C9,C14,C15","10","100nF","","","","Capacitor_SMD:C_1206_3216Metric","~"
-"C2","1","100uF","","","","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~"
-"C10,C11,C12,C13","4","20pF","","","","Capacitor_SMD:C_1206_3216Metric","~"
-"D1","1","1N4007","","","","Diode_SMD:D_SMA","~"
-"D2","1","LED","","","","LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm","~"
-"H1,H2,H3,H4","4","MountingHole","","Excluded from BOM","","MountingHole:MountingHole_3.2mm_M3","~"
-"J1","1","DC adapter input","","","","Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal","~"
-"J2","1","SWD sockets","","","","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal","~"
-"J3","1","SSD1306 OLED sockets","","","","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal","~"
-"J4","1","DHT11 sockets","","","","DHT11 sensor:DHT11","~"
-"R1","1","470","","","","Resistor_SMD:R_1206_3216Metric","~"
-"R2,R3","2","100k","","","","Resistor_SMD:R_1206_3216Metric","~"
-"R4","1","10k","","","","Resistor_SMD:R_1206_3216Metric","~"
-"SCREW1","1","Self-Tapping, M3x4","","","Excluded from board","",""
-"SW1","1","Power ON switch","","","","Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled","~"
-"SW2","1","Reset switch","","","","Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS","~"
-"U1","1","AMS1117-5.0","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-"U2","1","AMS1117-3.3","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-"U3","1","STM32F103C8T6","","","","Package_QFP:LQFP-48_7x7mm_P0.5mm","https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
-"Y1","1","32.768kHz","","","","Blue Pill 32.768kHz 4 pin oscillator:XTAL_MC-306_32.7680K-G0_ROHS","~"
-"Y2","1","8MHz","","","","Crystal:Crystal_SMD_HC49-SD","~"
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C3,C4,C5,C6,C7,C8,C9,C14,C15",10,100nF,,,,Capacitor_SMD:C_1206_3216Metric,~
+C2,1,100uF,,,,Capacitor_THT:CP_Radial_D4.0mm_P2.00mm,~
+"C10,C11,C12,C13",4,20pF,,,,Capacitor_SMD:C_1206_3216Metric,~
+D1,1,1N4007,,,,Diode_SMD:D_SMA,~
+D2,1,LED,,,,LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm,~
+"H1,H2,H3,H4",4,MountingHole,,Excluded from BOM,,MountingHole:MountingHole_3.2mm_M3,~
+J1,1,DC adapter input,,,,Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal,~
+J2,1,SWD sockets,,,,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal,~
+J3,1,SSD1306 OLED sockets,,,,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal,~
+J4,1,DHT11 sockets,,,,DHT11 sensor:DHT11,~
+R1,1,470,,,,Resistor_SMD:R_1206_3216Metric,~
+"R2,R3",2,100k,,,,Resistor_SMD:R_1206_3216Metric,~
+R4,1,10k,,,,Resistor_SMD:R_1206_3216Metric,~
+SW1,1,Power ON switch,,,,Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled,~
+SW2,1,Reset switch,,,,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,~
+U1,1,AMS1117-5.0,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+U2,1,AMS1117-3.3,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+U3,1,STM32F103C8T6,,,,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+Y1,1,32.768kHz,,,,Blue Pill 32.768kHz 4 pin oscillator:XTAL_MC-306_32.7680K-G0_ROHS,~
+Y2,1,8MHz,,,,Crystal:Crystal_SMD_HC49-SD,~
+,4,M3 self tapping screws,,,Exclude from Board,,
+,4,male-female jumper wires,,,Exclude from Board,,
