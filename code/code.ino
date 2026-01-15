@@ -4,9 +4,7 @@
 #include <Adafruit_SSD1306.h>
 #include <DHT.h>
 
-// ----------------------
-// CONFIGURATION
-// ----------------------
+// PIN CONFIGURATION
 #define DHTPIN PA0       // DHT11 DATA pin
 #define DHTTYPE DHT11    // Sensor type
 #define SCREEN_WIDTH 128
@@ -16,14 +14,11 @@ DHT dht(DHTPIN, DHTTYPE);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup() {
-  // Start serial
   Serial.begin(115200);
 
-  // Initialize DHT11
   dht.begin();
   delay(1000);
 
-  // Initialize OLED
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println("SSD1306 not found!");
     while (1);
@@ -55,14 +50,12 @@ void loop() {
     return;
   }
 
-  // Print to Serial
   Serial.print("Temp: ");
   Serial.print(t);
   Serial.print(" °C  Humidity: ");
   Serial.print(h);
   Serial.println(" %");
 
-  // Print to OLED
   display.clearDisplay();
   display.setTextSize(2);
 
@@ -78,5 +71,5 @@ void loop() {
 
   display.display();
   
-  delay(2000); // DHT11 takes a new reading every ~1s
+  delay(2000);
 }
